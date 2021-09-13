@@ -1,0 +1,28 @@
+body {
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    padding: 20px;
+    display: flex;
+    /* flex-direction: column; */
+}
+/* .link {
+    display: flex;
+    flex-direction: column;
+} */
+
+.link__ {
+    display: flex;
+    gap: 10px;
+}
+
+ul {
+    /* list-style-type: none; */
+}
+
+.image {
+    background-color: red;
+}
