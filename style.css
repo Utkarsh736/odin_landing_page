@@ -1,33 +1,141 @@
+* {
+    box-sizing: border-box;
+}
 
-/*  Dark bg
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF;
+}
 
-    1. Dark background color (Hero and Footer)
-    #1F2937
+.hero, .footer {
+    background-color: #1F2937;
+}
 
-   2. Hero-main text
-    48px extra-bold, #F9FAF8
+.hero_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 10px;
+}
 
-   3. Hero-secondary text, header link text
-    18px, #E5E7EB
+.header_links {
+    display: flex;
+    gap: 20px;
+}
 
-   4. Header logo text 
-    24px, #F9FAF8
-*/
+a{
+    text-decoration: none;
+}
 
-/* White bg
+.header_logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
 
-   1. Button color, call to action background color
-    #3882F6 
+.hero_main{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px 20px 30px;
+}
 
-   2. Information Heder text
-    #36px extra-bold, #1F2937
-*/
+.main_image>img{
+    display: flex;
+    justify-content: center;
+}
 
-/* Grey bg
+.text_primary {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
 
-   1. Quote section bg color
-    #E5E7FB
-    
-   2. quote text
-    36px light-italic #1F2937
-*/
+.text_secondary>p, a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.contact{
+    padding: 50px;
+}
+
+.contact_wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border-radius: 7px;
+    color: white;
+    flex: 1;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.contact_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 7px;
+}
+
+button {
+    background-color: inherit;
+    color: white;
+    padding: 1rem;
+    border: 2px solid white;
+    border-radius: 16px;
+    padding-inline: 20px;
+}
+
+button, .contact_wrapper {
+    background-color: #3882F6 ;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subtext{
+    display: flex;
+    gap: 20px;
+}
+
+.info_text {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.quote {
+    /* padding: 10px; */
+    background-color: #E5E7FB;
+}
+
+.__quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: oblique;
+    color: #1F2937;
+}
+
+.by {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.footer{
+    gap: 7px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 14rem;
+    padding-block: 2rem
+}
