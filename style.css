@@ -83,7 +83,7 @@ a{
 button {
     background-color: inherit;
     color: white;
-    padding: 1rem;
+    padding: 10px;
     border: 2px solid white;
     border-radius: 16px;
     padding-inline: 20px;
@@ -111,7 +111,7 @@ button, .contact_wrapper {
 }
 
 .quote {
-    /* padding: 10px; */
+    padding: 10px;
     background-color: #E5E7FB;
 }
 
@@ -137,5 +137,5 @@ button, .contact_wrapper {
     justify-content: center;
     align-items: center;
     padding-inline: 14rem;
-    padding-block: 2rem
+    padding-block: 2rem;
 }
